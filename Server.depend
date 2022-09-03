@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1638559021 source:/home/thavindu/Networking/Server/Server.c
+	"Server.h"
+	<stdio.h>
+	<stdlib.h>
+
+1638559063 /home/thavindu/Networking/Server/Server.h
+	<sys/socket.h>
+	<netinet/in.h>
+
+1639240173 source:/home/thavindu/Git/web_server/Server.c
+	"Server.h"
+	<stdio.h>
+	<stdlib.h>
+
+1639312125 /home/thavindu/Git/web_server/Server.h
+	<sys/socket.h>
+	<netinet/in.h>
+
+1639312878 source:/home/thavindu/Git/web_server/HTTPRequest.c
+	"HTTPRequest.h"
+	<string.h>
+	<stdlib.h>
+
+1639312247 /home/thavindu/Git/web_server/HTTPRequest.h
+
+1639311093 source:/home/thavindu/Git/web_server/test.c
+	"Server.h"
+	"HTTPRequest.h"
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<sys/sendfile.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<sys/types.h>
+
